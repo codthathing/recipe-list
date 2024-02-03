@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+
+
+
+
+@media all and (max-width: 767px) {
+
+}
+
+
+
+
+
+@media all and (min-width: 1025px) {
+    
+}
