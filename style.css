@@ -4,16 +4,147 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: hsl(30, 54%, 90%);
+#mainDiv {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#omeletteImg {
+    width: 100%;
+    height: 10rem;
+}
+
+#omeletteHead {
+    color: hsl(24, 5%, 18%);
+}
+
+#omeletteList {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+#omeListItem {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.omeListChar {
+    color: hsl(30, 10%, 34%);
+    margin: 0.25rem 0;
+}
+
+.subDivs {
+    padding: 1rem 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.subDivs:last-child {
+    border-bottom: none;
+}
+
+.subHeads {
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingList {
+    color: hsl(30, 10%, 34%);
+    margin: 0.35rem 0;
+}
+
+.instBody {
+    color: hsl(30, 10%, 34%);
+    margin: 0.5rem 0;
+}
+
+.instNum {
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+.instTitle {
+    font-weight: 600;
+}
+
+.nutText {
+    margin-bottom: 0.25rem;
+    color: hsl(30, 10%, 34%);
+}
+
+#nutTable {
+    width: 100%;
+}
+
+.nutTabRow {
+    text-align: center;
+}
+
+.nutTabData, .nutTabVal {
+    color: hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.25rem;
 }
 
 
 
 
 
-@media all and (max-width: 767px) {
 
+@media all and (max-width: 767px) {
+    #mainDiv {
+        width: 100%;
+    }
+
+    #omeDiv {
+        padding: 1rem;
+    }
+
+    #omeletteHead {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #omeletteText {
+        font-size: 0.75rem;
+    }
+
+    #omeletteList {
+        margin: 1rem; 
+    }
+
+    #omeListItem {
+        font-size: 0.75rem;
+    }
+
+    .omeListChar {
+        font-size: 0.75rem;
+    }
+
+    .subDivs {
+        margin: 0 1rem;
+    }
+
+    .subHeads {
+        font-size: 0.75rem;
+    }
+
+    .ingList {
+        font-size: 0.75rem;
+    }
+
+    .instBody {
+        font-size: 0.75rem;
+    }
+
+    .nutText {
+        font-size: 0.75rem;
+    }
+
+    .nutTabRow {
+        font-size: 0.75rem;
+    }
 }
 
 
@@ -21,5 +152,69 @@ body {
 
 
 @media all and (min-width: 1025px) {
-    
+    body {
+        background-color: hsl(30, 54%, 90%);
+        display: grid;
+        justify-content: center;
+    }
+
+    #mainDiv {
+        border-radius: 1rem;
+        width: 50%;
+        margin: 5vh auto;
+        padding: 1.5rem;
+    }
+
+    #omeletteImg {
+        border-radius: 0.5rem;
+    }
+
+    #omeDiv {
+        padding: 1rem 0.75rem;
+    }
+
+    #omeletteHead {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    #omeletteText {
+        font-size: 1rem;
+    }
+
+    #omeletteList {
+        margin: 1rem 0.75rem; 
+    }
+
+    #omeListItem {
+        font-size: 1rem;
+    }
+
+    .omeListChar {
+        font-size: 1rem;
+    }
+
+    .subDivs {
+        margin: 0 0.75rem;
+    }
+
+    .subHeads {
+        font-size: 1rem;
+    }
+
+    .ingList {
+        font-size: 1rem;
+    }
+
+    .instBody {
+        font-size: 1rem;
+    }
+
+    .nutText {
+        font-size: 1rem;
+    }
+
+    .nutTabRow {
+        font-size: 1rem;
+    }
 }
